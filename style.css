@@ -1,6 +1,9 @@
+
+/*Index.html*/
 body{
     padding: 0;
     margin: 0;
+    position: relative;
     box-sizing: border-box;
     font-family: 'Rubik', sans-serif;
     background-image: url(./Images/bg-pattern-top-desktop.svg);
@@ -22,9 +25,6 @@ body{
 .nav-item{
     margin: 1.5%;
 }
-.introduction{
-    margin-top: 3.5%;
-}
 /* Cursor */
 .txt-type > .txt {
     border-right: 0.2rem solid #bb83a7;
@@ -36,6 +36,7 @@ body{
     font-family: 'Spartan', sans-serif;
     font-weight: 700;
     color: #421b38;
+    font-size: 3rem;
 }
 .heading h3{
     font-family: 'Spartan', sans-serif;
@@ -62,6 +63,9 @@ body{
     border:none;
     border-radius: 4rem;
 }
+.button:hover{
+    background-image: linear-gradient(to right,#eccdd9, #bb83a7 );
+}
 .button a{
     text-decoration: none;
     color: hsl(0, 0%, 100%);
@@ -79,10 +83,11 @@ footer{
     font-family: 'Spartan', sans-serif;
     font-weight: 500;
 }
+/*Tab view*/
 @media(max-width:768px){
     .title{
         text-align: center;
-         padding-left: 12px;
+        padding-left: 12px;
     }
     .heading h1{
         font-size: 2.2rem;
@@ -91,13 +96,14 @@ footer{
         font-size: 1.2rem;
     }
     .introduction{
-        margin-top:5%;
+        margin-top: 5%;
         z-index: -1;
     }
     .image{
         margin-top: 3%;
     }
 }
+/*Mobile view*/
 @media(max-width:540px){
     .navbar-brand img{
         width: 70%;
@@ -121,3 +127,12 @@ footer{
         margin-bottom: 5%
     }
 }
+
+/*About.html*/
+
+.about h1{
+    color:#421b38;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
