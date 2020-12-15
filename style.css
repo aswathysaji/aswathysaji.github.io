@@ -6,6 +6,7 @@ body{
     background-image: url(./Images/bg-pattern-top-desktop.svg);
     background-position: left top;
     background-repeat: no-repeat;
+    background-color: #ffeefc;
     /*font-family: 'Spartan', sans-serif;*/
 }
 @media(max-width:540px){
