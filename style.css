@@ -157,6 +157,9 @@ footer{
 }
 
 @media(max-width:540px){
+    .about-me h1{
+        font-size: 2.2rem;
+    }
     .para{
         margin-top: 5%;
         text-align: center;
