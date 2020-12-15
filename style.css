@@ -1,0 +1,120 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    background-image: url(./Images/bg-pattern-top-desktop.svg);
+    background-position: left top;
+    background-repeat: no-repeat;
+    /*font-family: 'Spartan', sans-serif;*/
+}
+@media(max-width:540px){
+    body{
+        background-image: url(./Images/bg-pattern-top-mobile.svg);
+        background-position: left top;
+        background-repeat: no-repeat;
+    }
+}
+.navbar-brand img{
+    width: 80%;
+}
+.nav-item{
+    margin: 1.5%;
+}
+.introduction{
+    margin-top: 5%;
+}
+/* Cursor */
+.txt-type > .txt {
+    border-right: 0.2rem solid #bb83a7;
+  }
+  .title{
+      padding-left: 8%;
+  }
+.heading h1{
+    font-family: 'Spartan', sans-serif;
+    font-weight: 700;
+    color: #421b38;
+}
+.heading h3{
+    font-family: 'Spartan', sans-serif;
+    color:#bb83a7;
+}
+.social-media{
+    margin-top: 3%;
+}
+.social-media .first{
+    padding-left: 0;
+}
+.social-media a{
+    color:#7f5f8e ;
+    padding: 2%;
+}
+.social-media a:hover{
+    color:#421b38 ;
+}
+.button{
+    margin-top: 3%;
+    height: 40px;
+    width: 40%;
+    background-image: linear-gradient(to right, #7f5f8e, #421b38 );
+    border:none;
+    border-radius: 4rem;
+}
+.button a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+.button a:hover{
+    color:#eccdd9;
+}
+.image img{
+    width: 100%;
+}
+footer{
+    text-align: center;
+    margin-top: 3%;
+    color:#421b38 ;
+    font-family: 'Spartan', sans-serif;
+    font-weight: 500;
+}
+@media(max-width:768px){
+    .title{
+        text-align: center;
+    }
+    .heading h1{
+        font-size: 2.2rem;
+    }
+    .heading h3{
+        font-size: 1.2rem;
+    }
+    .introduction{
+        margin-top: 25%;
+        z-index: -1;
+    }
+    .image{
+        margin-top: 3%;
+    }
+}
+@media(max-width:540px){
+    .navbar-brand img{
+        width: 70%;
+    }
+    .title{
+        text-align: center;
+    }
+    .heading h1{
+        font-size: 2.2rem;
+    }
+    .heading h3{
+        font-size: 1.2rem;
+    }
+    .introduction{
+        margin-top: 5%;
+        z-index: -1;
+    }
+    .image{
+        margin-top: 5%;
+        margin-bottom: 5%
+    }
+}
