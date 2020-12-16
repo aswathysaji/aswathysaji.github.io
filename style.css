@@ -6,16 +6,16 @@ body{
     position: relative;
     box-sizing: border-box;
     font-family: 'Rubik', sans-serif;
-    background-image: url(./Images/bg-pattern-top-desktop.svg);
-    background-position: left top;
-    background-repeat: no-repeat;
+    background-image: url(./Images/bg-pattern-top-desktop.svg),url(./Images/bg-pattern-bottom-desktop.svg);
+    background-position: left top,right bottom;
+    background-repeat: no-repeat,no-repeat;
     /*font-family: 'Spartan', sans-serif;*/
 }
 @media(max-width:540px){
     body{
-        background-image: url(./Images/bg-pattern-top-mobile.svg);
-        background-position: left top;
-        background-repeat: no-repeat;
+        background-image: url(./Images/bg-pattern-top-mobile.svg),url(./Images/bg-pattern-bottom-mobile.svg);
+        background-position: left top,right bottom;
+        background-repeat: no-repeat,no-repeat;
     }
 }
 .navbar-brand img{
@@ -129,6 +129,30 @@ footer{
     color:#421b38;
     font-weight: 700;
     font-size: 3rem;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+}
+
+.about-me h1::before{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 1px;
+    background: #eccdd9;
+    bottom: 1px;
+    left: calc(50% - 60px);
+}
+
+.about-me h1::after{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #7f5f8e;
+    bottom: 0;
+    left: calc(50% - 20px);
 }
 
 .about-img{
@@ -149,6 +173,30 @@ footer{
     color:#421b38;
     font-weight: 700;
     font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+}
+
+.skill-heading h1::before{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 1px;
+    background: #eccdd9;
+    bottom: 1px;
+    left: calc(50% - 60px);
+}
+
+.skill-heading h1::after{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #7f5f8e;
+    bottom: 0;
+    left: calc(50% - 20px);
 }
 
 .skills-content{
@@ -156,17 +204,58 @@ footer{
     margin-bottom:3% ;
 }
 
-.skills img{
-    width:60%;
+.skill-image img{
+    width: 50%;
 }
 
+.skillbar {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  
+  .skillbar-bar:before {
+    background: #eccdd9;
+    content: "";
+    height: 3px;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+  }
+  
+  .skillbar-bar {
+    height: 3px;
+    width: 0px;
+    background: #421b38;
+    -webkit-transition-property: width, background-color;
+    transition-property: width, background-color;
+  }
+  
+  .skillbar-title {
+    color: #7f5f8e;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: inline-block;
+  }
+  
+  .skill-bar-percent {
+    float: right;
+    display: inline-block;
+    color: #7f5f8e;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+
 .skill-button{
-    margin-top: 3%;
     height: 40px;
     width: 20%;
     background-image: linear-gradient(to right, #7f5f8e, #421b38 );
     border:none;
     border-radius: 4rem;
+    margin-bottom: 2%;
 }
 .skill-button:hover{
     background-image: linear-gradient(to right,#eccdd9, #bb83a7 );
@@ -185,6 +274,9 @@ footer{
         text-align: center;
         font-size: 20px;
     }
+    .skill-image{
+        margin-bottom: 2%;
+    }
 }
 
 @media(max-width:540px){
@@ -201,6 +293,12 @@ footer{
     }
     .skill-button{
         width: 30%;
+    }
+    .skill-image{
+        margin-bottom: 2%;
+    }
+    .skill-image img{
+        width: 60%;
     }
 }
 
