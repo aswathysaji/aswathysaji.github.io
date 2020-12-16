@@ -24,6 +24,13 @@ body{
 .nav-item{
     margin: 1.5%;
 }
+.navbar-toggler{
+    border: none;
+}
+.navbar-light .navbar-toggler {
+    color: transparent;
+    border-color: transparent;
+}
 /* Cursor */
 .txt-type > .txt {
     border-right: 0.2rem solid #bb83a7;
