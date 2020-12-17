@@ -70,14 +70,11 @@ body{
     border-radius: 4rem;
 }
 .button:hover{
-    background-image: linear-gradient(to right,#eccdd9, #bb83a7 );
+   background-image: linear-gradient(to right,#421b38, #7f5f8e );
 }
 .button a{
     text-decoration: none;
     color: hsl(0, 0%, 100%);
-}
-.button a:hover{
-    color:#eccdd9;
 }
 .image img{
     width: 100%;
@@ -265,14 +262,11 @@ footer{
     margin-bottom: 2%;
 }
 .skill-button:hover{
-    background-image: linear-gradient(to right,#eccdd9, #bb83a7 );
+    background-image: linear-gradient(to right,#421b38, #7f5f8e );
 }
 .skill-button a{
     text-decoration: none;
     color: hsl(0, 0%, 100%);
-}
-.skill-button a:hover{
-    color:#eccdd9;
 }
 
 @media(max-width:768px){
