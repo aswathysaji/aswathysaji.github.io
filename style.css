@@ -312,6 +312,11 @@ footer{
 	-webkit-transition: .5s all ease;
 	-moz-transition: .5s all ease;
 	transition: .5s all ease;
+	 border-left: 3px solid #eccdd9;
+    	border-top: 3px solid #eccdd9;
+	-webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+	-moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+	box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
 }
 
 #what-we-do .card-title{
@@ -322,11 +327,6 @@ footer{
     font-family: 'Spartan', sans-serif;
 }
 
-#what-we-do .card:hover{
-	-webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
-	-moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
-	box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
-}
 #what-we-do .card .card-block{
 	padding-left: 50px;
     position: relative;
