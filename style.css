@@ -385,6 +385,9 @@ footer{
         border-left: 3px solid #eccdd9;
         border-top: 3px solid #eccdd9;
     }
+    #what-we-do .card-text{
+	    font-size:14px;
+	}
 }
 
 
