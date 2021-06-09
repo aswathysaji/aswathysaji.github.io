@@ -571,3 +571,28 @@ h2{
 		text-align: center;
 	}
 }
+
+/* experience */
+
+.club,.Internship{
+    margin-top:7%;
+    margin-bottom: 7%;
+}
+.club h3{
+    font-family: 'Spartan', sans-serif;
+}
+.club h5{
+    color: #02475e;
+}
+.cluh h4,h6{
+    color: #687980;
+}
+.club-image{
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    .club h2{
+        margin-top: 10px;
+    }
+}
