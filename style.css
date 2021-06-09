@@ -574,9 +574,9 @@ h2{
 
 /* experience */
 
-.club,.Internship{
-    margin-top:7%;
-    margin-bottom: 7%;
+.club{
+    margin-top:10%;
+    margin-bottom: 10%;
 }
 .club h3{
     font-family: 'Spartan', sans-serif;
