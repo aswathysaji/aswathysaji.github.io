@@ -90,6 +90,7 @@ footer{
     .title{
         text-align: center;
         padding-left: 12px;
+	margin: 5% 0;
     }
     .introduction{
         margin-top: 5%;
@@ -107,6 +108,10 @@ footer{
     .title{
         text-align: center;
         padding-left: 12px;
+	margin: 10% 0;
+    }
+	.title h5{
+        font-size: 18px;
     }
     .heading h1{
         font-size: 2.2rem;
